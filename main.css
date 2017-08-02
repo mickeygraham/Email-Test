@@ -24,6 +24,17 @@ ul {
   color: #596468;
 }
 
+.sidebar-icon {
+  margin-left: ;
+  margin-right: .5em;
+}
+
+.sidebar-item {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
 .compose-btn {
   display: flex;
   background-color: #ce5135;

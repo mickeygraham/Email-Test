@@ -1,4 +1,6 @@
-
+function MickeyTestFunction () {
+  document.getElementById("js-email-list").innerHTML = 5 + 6; 
+}
 
 var options = [
         set0 = ['Option 1','Option 2'],
@@ -27,10 +29,6 @@ function makeUL(array) {
 // Add the contents of options[0] to #foo:
 document.getElementById('foo').appendChild(makeUL(options[0]));
 
-/*
-Test Starts Here
-*/
-
 
 /*
   TODO:
@@ -40,8 +38,7 @@ Test Starts Here
 */
 
 function render() {
-    var testString = "This could be the first email";
-    document.getElementById("javascript-test").innerHTML = testString;
+  // Your Code Here
 
   renderEmails();
 }
