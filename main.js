@@ -1,3 +1,5 @@
+function MickeyTestFunction
+
 /*
   TODO:
   1. Grab all emails using fetchEmailsFromDatabase
