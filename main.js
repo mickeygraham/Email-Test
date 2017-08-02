@@ -32,7 +32,6 @@ Test Starts Here
 */
 
 
-
 /*
   TODO:
   1. Grab all emails using fetchEmailsFromDatabase
@@ -41,7 +40,8 @@ Test Starts Here
 */
 
 function render() {
-  // Your Code Here
+    var testString = "This could be the first email";
+    document.getElementById("javascript-test").innerHTML = testString;
 
   renderEmails();
 }
